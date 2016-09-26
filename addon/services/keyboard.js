@@ -7,7 +7,6 @@ const {
   Service,
   computed,
   get,
-  getOwner,
   run
 } = Ember;
 
