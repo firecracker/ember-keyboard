@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import handleKeyEvent from 'ember-keyboard/utils/handle-key-event';
+import getOwner from 'ember-getowner-polyfill';
 import { keyDown, keyPress, keyUp } from 'ember-keyboard/listeners/key-events';
 
 const {
